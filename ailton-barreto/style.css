@@ -1,6 +1,6 @@
 :root {
     --bg: #000000;
-    --text-color: #01F105;
+    --text-color: #fafafa;
     --sphere-color: #0b638b;
 }
 
@@ -30,7 +30,7 @@ body {
     /* padding-bottom: 4vw; */
     height: 100vh;
 
-    background-image: url("./img/matrix-raining-code.gif");
+    /* background-image: url("./img/matrix-raining-code.gif"); */
 }
 
 
@@ -43,7 +43,7 @@ body {
 }
 
 .avatar img {
-    width: 70%;
+    width: 90%;
 }
 
 .container {
@@ -65,7 +65,7 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 2vw;
-    box-shadow: 5px 4px 100px rgba(3, 211, 20, 0.3);
+    box-shadow: 5px 4px 100px rgba(248, 248, 248, 0.3);
     z-index: 100;
 }
 
@@ -177,7 +177,7 @@ hr {
         flex-direction: column;
         align-items: center;
         border-radius: 1vw;
-        box-shadow: 2px 5px 30px rgba(1, 253, 135, 0.3);
+        box-shadow: 2px 5px 30px rgba(248, 248, 248, 0.3);
     }
 
     .contacts {
