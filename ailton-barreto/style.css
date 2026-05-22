@@ -153,10 +153,10 @@ hr {
 
     .avatar img {
         position: fixed;
-        width: 30%;
+        width: 40%;
         z-index: 1000;
         bottom: 0;
-        right: 46%;
+        right: 47%;
     }
 
     .nome{
