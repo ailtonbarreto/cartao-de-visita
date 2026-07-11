@@ -27,10 +27,7 @@ body {
     text-align: center;
     background-color: var(--bg);
     font-family: 'MinhaFonte', sans-serif;
-    /* padding-bottom: 4vw; */
     height: 100vh;
-
-    /* background-image: url("./img/matrix-raining-code.gif"); */
 }
 
 
@@ -39,11 +36,11 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: start;
-    margin-top: 3vh;
+    margin-top: 5vw;
 }
 
 .avatar img {
-    width: 90%;
+    width: 75%;
 }
 
 .container {
@@ -83,8 +80,6 @@ hr {
 }
 
 
-
-
 .contacts {
     display: flex;
     flex-direction: column;
@@ -115,9 +110,6 @@ hr {
         width: 10vw;
     }
 }
-
-
-
 
 
 /* -------------------------------------------- */
