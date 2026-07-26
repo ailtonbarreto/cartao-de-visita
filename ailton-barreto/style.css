@@ -76,8 +76,7 @@ body {
     justify-content: start;
     gap: 5vw;
     padding: 3vw;
-    margin-top: 2vw;
-    margin-left: 5%;
+    font-size: large;
     height: 100%;
     width: 100%;
 }
