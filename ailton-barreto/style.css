@@ -37,7 +37,6 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: start;
-    margin-top: 5vw;
 }
 
 .avatar img {
@@ -48,12 +47,10 @@ body {
 }
 
 
-
 .social {
-    width: 95vw;
+    width: 100%;
+    gap: 3vw;
     display: flex;
-    text-align: left;
-    padding-bottom: 2vw;
     flex-direction: column;
     align-items: center;
     border-radius: 2vw;
@@ -64,21 +61,18 @@ body {
     margin-top: 3vw;
     flex-direction: column;
     text-align: center;
-    gap: 2vw;
 }
-
-
 
 .contacts {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    justify-content: start;
+    text-align: center;
+    justify-content: space-between;
     gap: 5vw;
     padding: 3vw;
-    font-size: large;
+    font-size: 4vw;
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
 
 .whats,
@@ -87,19 +81,18 @@ body {
 .email,
 .website {
     background-color: var(--sphere-color);
-    padding: 2vw;
+    padding: 2vw 3vw;
     border-radius: 2vw;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
     text-align: center;
     gap: 3vw;
-    width: 95%;
+    width: 100%;
 
     img {
         display: block;
-        width: 10vw;
+        width: 12vw;
     }
 }
 
@@ -109,12 +102,8 @@ body {
 @media (min-width: 1024px) {
 
     body {
-
-        width: 30vw;
+        display: none;
 
     }
-
-
-
 
 }
