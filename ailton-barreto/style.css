@@ -75,7 +75,7 @@ body {
     width: 90%;
 }
 
-.social_link{
+.social_link {
     background-color: var(--sphere-color);
     padding: 2vw 3vw;
     border-radius: 2vw;
@@ -94,7 +94,8 @@ body {
 
 }
 
-.infos, .arrow{
+.infos,
+.arrow {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -102,7 +103,7 @@ body {
     gap: 3vw;
 }
 
-.arrow a{
+.arrow a {
     cursor: pointer;
     display: flex;
     z-index: 100;
@@ -116,8 +117,18 @@ body {
 @media (min-width: 1024px) {
 
     body {
-        display: none;
+        width: 30vw;
+        ;
+        margin: auto;
+        height: 100vh;
+    }
 
+    .avatar img {
+        width: 50%;
+    }
+
+    .contacts{
+        display: none;
     }
 
 }
