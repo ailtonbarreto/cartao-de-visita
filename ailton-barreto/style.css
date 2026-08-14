@@ -95,13 +95,13 @@ body {
     overflow: hidden;
     padding: 10vh 0;
 
-    .icons{
+    .icons {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10vw;
         margin: 0 10vw;
 
-        img{
+        img {
             width: 16vw;
         }
     }
@@ -110,21 +110,68 @@ body {
 
 /* -------------------------------------------- */
 
-@media (min-width: 1024px) {
+@media (orientation: landscape) {
 
-    body {
-        width: 30vw;
-        ;
-        margin: auto;
-        height: 100vh;
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 30vh;
+
+        p {
+            color: #04183b;
+            writing-mode: horizontal-tb;
+            transform: rotate(0deg);
+            margin: 0;
+            font-size: 5vw;
+        }
+    }
+
+    .right_side {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+
+        .icons {
+            display: none;
+            grid-template-columns: 1fr 1fr;
+            gap: 10vw;
+            margin: 0 10vw;
+
+            img {
+                width: 16vw;
+            }
+        }
+
+    }
+
+    .binary {
+        display: none;
+    }
+
+    .avatar {
+        display: flex;
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        right: 0;
+        gap: 2vw;
+
+        h1 {
+            font-size: 3vw;
+        }
     }
 
     .avatar img {
-        width: 50%;
-    }
+        width: 60%;
+        margin-top: 2vw;
 
-    .contacts {
-        display: none;
     }
 
 }
