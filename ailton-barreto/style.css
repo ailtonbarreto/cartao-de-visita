@@ -65,10 +65,6 @@ body {
     z-index: 2;
 }
 
-img {
-    width: 10vw;
-}
-
 .container {
     display: grid;
     grid-template-columns: 25% auto;
@@ -103,19 +99,16 @@ img {
     padding: 10vh 0;
 
     .icons{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10vw;
         margin: 0 5vw;
+
+        img{
+            width: 15vw;
+        }
     }
 
-    a{
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 3vw;
-    }
 }
 
 /* -------------------------------------------- */
