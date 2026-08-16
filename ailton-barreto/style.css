@@ -139,13 +139,13 @@ body {
         height: 70vh;
 
         .icons {
-            display: none;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
+            flex-direction: row;
             gap: 10vw;
-            margin: 0 10vw;
+            margin: 5vw;
 
             img {
-                width: 16vw;
+                width: 6vw;
             }
         }
 
