@@ -96,13 +96,29 @@ body {
     padding: 10vh 0;
 
     .icons {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10vw;
-        margin: 0 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 6vw;
+        text-align: left;
+        width: 100%;
+
+        p{
+            font-size: 1.5rem;
+        }
+        
+        a{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 5vw;
+            width: 100%;
+            gap: 3vw;
+        }
 
         img {
-            width: 16vw;
+            width: 8vw;
         }
     }
 
