@@ -58,7 +58,7 @@ body {
 }
 
 .avatar img {
-    width: clamp(150px, 46vw, 205px);
+    width: clamp(150px, 205px);
     aspect-ratio: 1;
     border: 5px solid var(--gold);
     border-radius: 50%;
