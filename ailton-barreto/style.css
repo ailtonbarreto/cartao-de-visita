@@ -1,7 +1,7 @@
 :root {
     color-scheme: dark;
     --gold: #ffffff;
-    --card: #0221359a;
+    --card: #2086EB;
     --text: #f7f3e8;
 }
 
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 32px 16px;
-    background: linear-gradient(180deg, #282a29 0%, #042b75 100%);
+    background: linear-gradient(180deg, #000302 0%, #2086EB 100%);
     color: var(--text);
     font-family: "Open Sans", sans-serif;
 }
