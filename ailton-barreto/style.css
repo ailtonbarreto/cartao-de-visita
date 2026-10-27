@@ -174,14 +174,14 @@ body {
     }
 
     .right_side {
-        min-height: 0;
+        min-height: calc(100svh - 50px);
         grid-template-columns: 1fr;
         border-radius: 22px;
     }
 
     .portrait {
         min-height: 0;
-        height: clamp(250px, 70vw, 390px);
+        height: clamp(300px, 115vw, 450px);
         grid-row: 1;
     }
 
