@@ -5,7 +5,7 @@
     --ink: #17191f;
     --muted: #77736f;
     --paper: #f5f0e5;
-    --accent: #ff6a24;
+    --accent: #2086EB;
     --line: rgba(23, 25, 31, 0.12);
 }
 
@@ -67,7 +67,7 @@ body {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #ff9a24, #ef3d62 55%, #7228c4);
+    background: linear-gradient(135deg, #2086EB, #ef3d62 55%, #7228c4);
     content: "";
 }
 
@@ -92,7 +92,7 @@ body {
 
 .contact-heading {
     margin-bottom: 14px;
-    color: #827a71;
+    color: #2086EB;
     font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.14em;
@@ -123,7 +123,7 @@ body {
 }
 
 .contact-links a::after {
-    color: #8e877e;
+    color: #2086EB;
     content: "↗";
     font-size: 1rem;
     transition: color 160ms ease;
@@ -131,7 +131,7 @@ body {
 
 .contact-links a:hover {
     transform: translateY(-2px);
-    border-color: rgba(255, 106, 36, 0.45);
+    border-color: #2086EB;
     background: #fff8f1;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .contact-links a:focus-visible {
-    outline: 3px solid rgba(255, 106, 36, 0.55);
+    outline: 3px solid #2086EB;
     outline-offset: 3px;
 }
 
@@ -148,7 +148,7 @@ body {
     position: relative;
     min-height: 100%;
     overflow: hidden;
-    background: #f4e8d1;
+    background: #2086EB;
 }
 
 .portrait::after {
