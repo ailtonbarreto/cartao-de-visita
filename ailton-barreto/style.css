@@ -148,7 +148,6 @@ body {
     position: relative;
     min-height: 100%;
     overflow: hidden;
-    background: #2086EB;
 }
 
 .portrait::after {
